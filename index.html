@@ -1,203 +1,280 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avion</title>
-    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avion</title>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
 
-<header>
-    <nav>
-        <a href="#">Avion</a>
-        <ul>
-            <li><a href="#">Горшки для растений</a></li>
-            <li><a href="#">Керамика</a></li>
-            <li><a href="#">Столы</a></li>
-            <li><a href="#">Стулья</a></li>
-            <li><a href="#">Фаянсовая посуда</a></li>
-            <li><a href="#">Посуда</a></li>
-            <li><a href="#">Столовые приборы</a></li>
-        </ul>
+<header class="header">
+  <div class="header__inner container">
+    <a href="#hero" class="header__logo">Avion</a>
+
+    <nav class="header__nav nav" aria-label="Основная навигация">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#features" class="nav__link">Почему мы</a></li>
+        <li class="nav__item"><a href="#new-ceramics" class="nav__link">Новая керамика</a></li>
+        <li class="nav__item"><a href="#popular-products" class="nav__link">Популярные товары</a></li>
+        <li class="nav__item"><a href="#club" class="nav__link">Клуб</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">О бренде</a></li>
+      </ul>
     </nav>
+  </div>
 </header>
 
-<main>
+<main class="page">
 
-    <section>
-        <h1>Мебель будущего с&nbsp;вневременным дизайном</h1>
-        <p>Вот вам яркий пример современных тенденций&nbsp;&mdash; существующая теория требует определения и&nbsp;уточнения
-            как самодостаточных,
-            так и&nbsp;внешне зависимых концептуальных решений. Господа, глубокий уровень погружения обеспечивает
-            актуальность модели развития.
-            В&nbsp;своём стремлении повысить качество жизни, они забывают,
-            что реализация намеченных плановых заданий не&nbsp;оставляет шанса для переосмысления внешнеэкономических
-            политик.</p>
-        <button>Посмотреть коллекцию</button>
-        <img src="assets/img/Right%20Image.png" alt="Дизайнерское кресло">
-    </section>
+  <!-- HERO -->
+  <section id="hero" class="hero">
+    <div class="hero__inner container">
+      <div class="hero__content">
+        <h1 class="hero__title">Мебель будущего с&nbsp;вневременным дизайном</h1>
+        <p class="hero__text">
+          Вот вам яркий пример современных тенденций&nbsp;&mdash; существующая теория требует определения
+          и&nbsp;уточнения как самодостаточных, так и&nbsp;внешне зависимых концептуальных решений.
+          Господа, глубокий уровень погружения обеспечивает актуальность модели развития. В&nbsp;своём стремлении
+          повысить качество жизни, они забывают, что реализация намеченных плановых заданий не&nbsp;оставляет шанса
+          для переосмысления внешнеэкономических политик.
+        </p>
+        <button class="button hero__button">Посмотреть коллекцию</button>
+      </div>
 
-    <section>
-        <h2>Почему выбирают нас</h2>
-        <article>
-            <h3>Быстрая доставка</h3>
-            <p>Являясь всего лишь частью общей картины, многие известные личности, инициированные
-                исключительно синтетически, призваны к&nbsp;ответу. Задача организации,
-                в&nbsp;особенности&nbsp;же социально-экономическое развитие
-                позволяет выполнить важные задания по&nbsp;разработке укрепления моральных ценностей.</p>
-        </article>
-        <article>
-            <h3>Хорошая цена</h3>
-            <p>А&nbsp;также интерактивные прототипы могут быть заблокированы в&nbsp;рамках своих собственных
-                рациональных ограничений.</p>
-        </article>
-        <article>
-            <h3>Переработанная упаковка</h3>
-            <p>Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии являются только методом
-                политического участия и&nbsp;функционально разнесены на&nbsp;независимые элементы.</p>
-        </article>
-        <article>
-            <h3>Ручная работа</h3>
-            <p>С&nbsp;учётом сложившейся международной обстановки, разбавленное изрядной долей эмпатии, рациональное
-                мышление играет важную роль в&nbsp;формировании стандартных подходов.</p>
-        </article>
-    </section>
+      <div class="hero__image-wrap">
+        <img src="assets/img/Right%20Image.png" alt="Дизайнерское кресло" class="hero__image">
+      </div>
+    </div>
+  </section>
 
-    <section>
-        <h2>Новая керамика</h2>
-        <article>
-            <img src="assets/img/Photo.png" alt="Стул">
-            <h3>Стул Денди</h3>
-            <p>&pound;250</p>
-        </article>
-        <article>
-            <img src="assets/img/Vases.png" alt="Вазы">
-            <h3>Набор ваз в&nbsp;деревенском стиле</h3>
-            <p>&pound;155</p>
-        </article>
-        <article>
-            <img src="assets/img/Photo%20(1).png" alt="Ваза">
-            <h3>Шелковистая ваза</h3>
-            <p>&pound;125</p>
-        </article>
-        <article>
-            <img src="assets/img/Photo%20(2).png" alt="Лампа">
-            <h3>Лампа Люси</h3>
-            <p>&pound;399</p>
-        </article>
-        <button>Посмотреть коллекцию</button>
-    </section>
+  <!-- ПОЧЕМУ ВЫБИРАЮТ НАС -->
+  <section id="features" class="features">
+    <div class="features__inner container">
+      <h2 class="features__title">Почему выбирают нас</h2>
 
-    <section>
-        <h2>Популярные товары</h2>
-        <article>
-            <img src="assets/img/Large.png" alt="Диван">
-            <h3>Замшевый диван Тополь</h3>
-            <p>&pound;980</p>
+      <div class="features__list">
+        <article class="features__item card">
+          <h3 class="card__title">Быстрая доставка</h3>
+          <p class="card__text">
+            Являясь всего лишь частью общей картины, многие известные личности, инициированные исключительно
+            синтетически, призваны к&nbsp;ответу. Задача организации, в&nbsp;особенности&nbsp;же
+            социально-экономическое развитие позволяет выполнить важные задания по&nbsp;разработке укрепления
+            моральных ценностей.
+          </p>
         </article>
-        <article>
-            <img src="assets/img/Photo.png" alt="Вазы">
-            <h3>Стул Денди</h3>
-            <p>&pound;155</p>
-        </article>
-        <article>
-            <img src="assets/img/Photo%20(3).png" alt="Ваза">
-            <h3>Стул Денди</h3>
-            <p>&pound;250</p>
-        </article>
-        <button>Посмотреть коллекцию</button>
-    </section>
 
-    <section>
-        <h2>Вступайте в&nbsp;клуб и&nbsp;получайте привилегии</h2>
-        <p>Значимость этих проблем настолько очевидна, что базовый вектор развития однозначно фиксирует необходимость
-            прогресса профессионального сообщества.</p>
-        <form>
-            <input type="email" placeholder="Ваш email">
-            <button type="submit">Подписаться</button>
-        </form>
-    </section>
+        <article class="features__item card">
+          <h3 class="card__title">Хорошая цена</h3>
+          <p class="card__text">
+            А&nbsp;также интерактивные прототипы могут быть заблокированы в&nbsp;рамках своих собственных
+            рациональных ограничений.
+          </p>
+        </article>
 
-    <section>
-        <h2>От&nbsp;студии в&nbsp;Лондоне до&nbsp;мирового бренда с
-            более 400 торговых точек</h2>
-        <p>Когда мы&nbsp;запускали Avion, идея была проста. Делаем качественную мебель
-            доступным и&nbsp;доступным для массового рынка.
-            Мебель и&nbsp;товары для дома ручной работы, изготовленные с&nbsp;любовью,&nbsp;&mdash; это&nbsp;то, чем мы&nbsp;живем.
-            дышите и&nbsp;проектируйте, чтобы наш бутик в&nbsp;Челси стал рассадником
-            Лондонское сообщество дизайнеров интерьеров.</p>
-        <img src="assets/img/Image.png" alt="Интерьер">
-        <button>Свяжитесь с&nbsp;нами</button>
-    </section>
+        <article class="features__item card">
+          <h3 class="card__title">Переработанная упаковка</h3>
+          <p class="card__text">
+            Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии являются только методом
+            политического участия и&nbsp;функционально разнесены на&nbsp;независимые элементы.
+          </p>
+        </article>
+
+        <article class="features__item card">
+          <h3 class="card__title">Ручная работа</h3>
+          <p class="card__text">
+            С&nbsp;учётом сложившейся международной обстановки, разбавленное изрядной долей эмпатии,
+            рациональное мышление играет важную роль в&nbsp;формировании стандартных подходов.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- НОВАЯ КЕРАМИКА -->
+  <section id="new-ceramics" class="products products--new">
+    <div class="products__inner container">
+      <h2 class="products__title">Новая керамика</h2>
+
+      <div class="products__list">
+        <article class="products__card">
+          <img src="assets/img/Photo.png" alt="Стул" class="products__image">
+          <h3 class="products__card-title">Стул Денди</h3>
+          <p class="products__price">&pound;250</p>
+        </article>
+
+        <article class="products__card">
+          <img src="assets/img/Vases.png" alt="Вазы" class="products__image">
+          <h3 class="products__card-title">Набор ваз в&nbsp;деревенском стиле</h3>
+          <p class="products__price">&pound;155</p>
+        </article>
+
+        <article class="products__card">
+          <img src="assets/img/Photo%20(1).png" alt="Ваза" class="products__image">
+          <h3 class="products__card-title">Шелковистая ваза</h3>
+          <p class="products__price">&pound;125</p>
+        </article>
+
+        <article class="products__card">
+          <img src="assets/img/Photo%20(2).png" alt="Лампа" class="products__image">
+          <h3 class="products__card-title">Лампа Люси</h3>
+          <p class="products__price">&pound;399</p>
+        </article>
+      </div>
+
+      <button class="button products__button">Посмотреть коллекцию</button>
+    </div>
+  </section>
+
+  <!-- ПОПУЛЯРНЫЕ ТОВАРЫ -->
+  <section id="popular-products" class="products products--popular">
+    <div class="products__inner container">
+      <h2 class="products__title">Популярные товары</h2>
+
+      <div class="products__list">
+        <article class="products__card">
+          <img src="assets/img/Large.png" alt="Диван" class="products__image">
+          <h3 class="products__card-title">Замшевый диван Тополь</h3>
+          <p class="products__price">&pound;980</p>
+        </article>
+
+        <article class="products__card">
+          <img src="assets/img/Photo.png" alt="Стул" class="products__image">
+          <h3 class="products__card-title">Стул Денди</h3>
+          <p class="products__price">&pound;155</p>
+        </article>
+
+        <article class="products__card">
+          <img src="assets/img/Photo%20(3).png" alt="Стул" class="products__image">
+          <h3 class="products__card-title">Стул Денди</h3>
+          <p class="products__price">&pound;250</p>
+        </article>
+      </div>
+
+      <button class="button products__button">Посмотреть коллекцию</button>
+    </div>
+  </section>
+
+  <!-- КЛУБ / РАССЫЛКА -->
+  <section id="club" class="newsletter">
+    <div class="newsletter__inner container">
+      <h2 class="newsletter__title">Вступайте в&nbsp;клуб и&nbsp;получайте привилегии</h2>
+      <p class="newsletter__text">
+        Значимость этих проблем настолько очевидна, что базовый вектор развития однозначно фиксирует необходимость
+        прогресса профессионального сообщества.
+      </p>
+
+      <form class="newsletter__form">
+        <input class="newsletter__input" type="email" placeholder="Ваш email" required>
+        <button class="button newsletter__button" type="submit">Подписаться</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- О БРЕНДЕ -->
+  <section id="about" class="about">
+    <div class="about__inner container">
+      <div class="about__content">
+        <h2 class="about__title">
+          От&nbsp;студии в&nbsp;Лондоне до&nbsp;мирового бренда с&nbsp;более 400 торговых точек
+        </h2>
+        <p class="about__text">
+          Когда мы&nbsp;запускали Avion, идея была проста. Делаем качественную мебель доступной для массового рынка.
+          Мебель и&nbsp;товары для дома ручной работы, изготовленные с&nbsp;любовью,&nbsp;&mdash; это&nbsp;то, чем мы&nbsp;живём,
+          дышим и&nbsp;проектируем, чтобы наш бутик в&nbsp;Челси стал рассадником лондонского сообщества дизайнеров
+          интерьеров.
+        </p>
+        <button class="button about__button">Свяжитесь с&nbsp;нами</button>
+      </div>
+
+      <div class="about__image-wrap">
+        <img src="assets/img/Image.png" alt="Интерьер" class="about__image">
+      </div>
+    </div>
+  </section>
 
 </main>
 
-<footer>
+<footer class="footer">
 
-    <div class="footer-top">
+  <div class="footer__top">
+    <div class="footer__inner container">
 
-        <nav aria-label="Footer menu">
-            <h2>Меню</h2>
-            <ul>
-                <li><a href="#">Новые поступления</a></li>
-                <li><a href="#">Бестселлеры</a></li>
-                <li><a href="#">Недавно просмотренные</a></li>
-                <li><a href="#">Популярно на&nbsp;этой неделе</a></li>
-                <li><a href="#">Все продукты</a></li>
-            </ul>
-        </nav>
-
-        <nav aria-label="Categories">
-            <h2>Категории</h2>
-            <ul>
-                <li><a href="#">Посуда</a></li>
-                <li><a href="#">Мебель</a></li>
-                <li><a href="#">Товары для дома</a></li>
-                <li><a href="#">Горшки для растений</a></li>
-                <li><a href="#">Стулья</a></li>
-                <li><a href="#">Фаянсовая посуда</a></li>
-            </ul>
-        </nav>
-
-        <nav aria-label="Our company">
-            <h2>Наша компания</h2>
-            <ul>
-                <li><a href="#">О&nbsp;нас</a></li>
-                <li><a href="#">Вакансии</a></li>
-                <li><a href="#">Связь с&nbsp;нами</a></li>
-                <li><a href="#">Конфиденциальность</a></li>
-                <li><a href="#">Правила возврата</a></li>
-            </ul>
-        </nav>
-
-        <div class="footer-subscribe">
-            <h2>Присоединяйтесь к&nbsp;нашей рассылке</h2>
-            <form action="#" method="post">
-                <label for="footer-email" class="visually-hidden">Email</label>
-                <input
-                        type="email"
-                        id="footer-email"
-                        name="email"
-                        placeholder="your@email.com"
-                        required>
-                <button type="submit">Подписаться</button>
-            </form>
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
-        <p>Copyright 2022 Avion LTD</p>
-
-        <ul class="socials">
-            <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
-            <li><a href="#" aria-label="Facebook">Facebook</a></li>
-            <li><a href="#" aria-label="Instagram">Instagram</a></li>
-            <li><a href="#" aria-label="Twitter">Twitter</a></li>
-            <li><a href="#" aria-label="Pinterest">Pinterest</a></li>
+      <nav class="footer__column" aria-label="Меню">
+        <h2 class="footer__title">Меню</h2>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">Новые поступления</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Бестселлеры</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Недавно просмотренные</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Популярно на&nbsp;этой неделе</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Все продукты</a></li>
         </ul>
+      </nav>
+
+      <nav class="footer__column" aria-label="Категории">
+        <h2 class="footer__title">Категории</h2>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">Посуда</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Мебель</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Товары для дома</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Горшки для растений</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Стулья</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Фаянсовая посуда</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer__column" aria-label="О компании">
+        <h2 class="footer__title">Наша компания</h2>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="#" class="footer__link">О&nbsp;нас</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Вакансии</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Связь с&nbsp;нами</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Конфиденциальность</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Правила возврата</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__column footer__column--subscribe">
+        <h2 class="footer__title">Присоединяйтесь к&nbsp;нашей рассылке</h2>
+        <form class="footer__form" action="#" method="post">
+          <label for="footer-email" class="visually-hidden">Email</label>
+          <input
+            type="email"
+            id="footer-email"
+            name="email"
+            class="footer__input"
+            placeholder="your@email.com"
+            required>
+          <button type="submit" class="button footer__button">Подписаться</button>
+        </form>
+      </div>
+
     </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="footer__bottom-inner container">
+      <p class="footer__copy">Copyright 2022 Avion LTD</p>
+
+      <ul class="footer__socials">
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link" aria-label="LinkedIn">LinkedIn</a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link" aria-label="Facebook">Facebook</a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link" aria-label="Instagram">Instagram</a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link" aria-label="Twitter">Twitter</a>
+        </li>
+        <li class="footer__social-item">
+          <a href="#" class="footer__social-link" aria-label="Pinterest">Pinterest</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 
 </footer>
 
