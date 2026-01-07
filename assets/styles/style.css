@@ -127,13 +127,10 @@ body {
   }
 }
 
-@media(max-width:600px){
-  .header__inner{
-    flex-direction:column;
-    gap:10px;
-  }
-  .features__list,
-  .products__list{
-    grid-template-columns:1fr;
+@media (max-width: 600px){
+  .nav__list{
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
   }
 }
