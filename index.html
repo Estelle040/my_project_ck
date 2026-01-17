@@ -9,12 +9,20 @@
   <title>Avion</title>
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="stylesheet" href="assets/styles/mobile.css" media="(max-width:1024px)">
 </head>
 <body>
 
 <header class="header">
   <div class="header__inner container">
     <a href="#hero" class="header__logo">Avion</a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false">
+      <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+      <span class="menu-toggle__line"></span>
+    </button>
+
 
     <nav class="header__nav nav" aria-label="Основная навигация">
       <ul class="nav__list">
@@ -280,6 +288,7 @@
   </div>
 
 </footer>
-
+<button class="scroll-top" id="scrollTop" aria-label="Наверх">↑</button>
+<script src="assets/scripts/menu.js"></script>
 </body>
 </html>
